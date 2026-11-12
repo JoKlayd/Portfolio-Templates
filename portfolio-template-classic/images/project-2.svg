@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <rect width="100%" height="100%" fill="#e2e8f0"/>
+  <rect x="24" y="24" width="1152" height="627" rx="16" fill="none" stroke="#94a3b8" stroke-width="4" stroke-dasharray="14 10"/>
+  <text x="50%" y="47%" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="72.0" font-weight="700" fill="#334155">Project image here</text>
+  <text x="50%" y="59%" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="38.4" fill="#64748b">Add a photo or screenshot of your project</text>
+</svg>

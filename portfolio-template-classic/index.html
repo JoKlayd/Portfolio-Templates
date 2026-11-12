@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Portfolio</title>
+    <meta name="description" content="Your Name's portfolio — projects, skills, education, and experience.">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Your Name<span class="logo-dot"></span></a>
+
+        <nav class="navbar" id="nav-menu" aria-label="Main navigation">
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-controls">
+            <input type="checkbox" id="theme-toggle" class="visually-hidden" aria-label="Dark mode">
+            <label for="theme-toggle" class="theme-btn" title="Switch light or dark mode">
+                <span class="theme-symbol" aria-hidden="true"></span>
+            </label>
+            <div class="menu-buttons">
+                <a href="#nav-menu" class="menu-open" aria-label="Open menu">
+                    <span></span><span></span><span></span>
+                </a>
+                <a href="#close" class="menu-close" aria-label="Close menu">
+                    <span></span><span></span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <div class="home-content">
+                <p class="eyebrow">Your role or interests here</p>
+                <h1>I'm Your Name.<br><span>Your tagline here</span></h1>
+                <p class="home-description">description here — briefly introduce yourself and what you do.</p>
+                <div class="btn-box">
+                    <a href="#projects" class="btn-1">Explore my work</a>
+                    <a href="#contact" class="btn-2">Let's connect</a>
+                </div>
+                <div class="quick-links">
+                    <a href="#achievements">Achievements</a>
+                    <a href="#experience">Experience</a>
+                </div>
+            </div>
+            <div class="img-box">
+                <img src="images/profile.svg" alt="Your profile photo" width="600" height="600">
+                <p class="image-caption">Your course or role / Your city</p>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="container about-layout">
+                <div class="about-img">
+                    <img src="images/about.svg" alt="A photo that represents you" width="600" height="600" loading="lazy">
+                </div>
+                <div class="about-content">
+                    <p class="eyebrow">01 / Introduction</p>
+                    <h2>A little about me</h2>
+                    <p>Tell your story in your own words. Mention what sparked your interest in your field and what
+                        you are exploring now.</p>
+                    <p>Outside of work or school, share a hobby or interest. This is your space to show the person
+                        behind the projects.</p>
+                    <p>Replace these paragraphs with your own introduction before publishing your portfolio.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <div class="container">
+                <p class="eyebrow">02 / Skills</p>
+                <h2>Skills</h2>
+                <p class="section-intro">Add your skills and briefly explain how you use them.</p>
+                <div class="skills-container">
+                    <article class="skills-box">
+                        <h3>Skill category here</h3>
+                        <ul class="skills-list">
+                            <li class="skill"><strong>Skill name here</strong><span>description here — briefly explain this skill and how you use it.</span></li>
+                            <li class="skill"><strong>Skill name here</strong><span>description here — briefly explain this skill and how you use it.</span></li>
+                            <li class="skill"><strong>Skill name here</strong><span>description here — briefly explain this skill and how you use it.</span></li>
+                        </ul>
+                    </article>
+                    <article class="skills-box">
+                        <h3>Skill category here</h3>
+                        <ul class="skills-list">
+                            <li class="skill"><strong>Skill name here</strong><span>description here — briefly explain this skill and how you use it.</span></li>
+                            <li class="skill"><strong>Skill name here</strong><span>description here — briefly explain this skill and how you use it.</span></li>
+                            <li class="skill"><strong>Skill name here</strong><span>description here — briefly explain this skill and how you use it.</span></li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <div class="container">
+                <p class="eyebrow">03 / Selected work</p>
+                <h2>Ideas into projects</h2>
+                <p class="section-intro">Add your projects and briefly explain each one.</p>
+                <div class="projects-container">
+                    <article class="project-box">
+                        <img src="images/project-1.svg" alt="Project image placeholder" width="1200" height="675" loading="lazy">
+                        <div class="project-content">
+                            <span class="badge">Category here / Your role here</span>
+                            <h3>Project title here</h3>
+                            <p>description here — briefly explain what you created, your role, and the result.</p>
+                        </div>
+                    </article>
+                    <article class="project-box">
+                        <img src="images/project-2.svg" alt="Project image placeholder" width="1200" height="675" loading="lazy">
+                        <div class="project-content">
+                            <span class="badge">Category here / Your role here</span>
+                            <h3>Project title here</h3>
+                            <p>description here — briefly explain what you created, your role, and the result.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="education" id="education">
+            <div class="container">
+                <p class="eyebrow">04 / Learning journey</p>
+                <h2>Education</h2>
+                <p class="section-intro">Add your schools, courses, or qualifications.</p>
+                <div class="edu-grid">
+                    <article class="edu-card">
+                        <h3>School or institution name here</h3>
+                        <p class="program">Degree or course here</p>
+                        <div class="meta"><span class="badge">Status here</span><span>Start year – End year</span></div>
+                        <p>description here — briefly explain what you studied and what you learned.</p>
+                    </article>
+                    <article class="edu-card">
+                        <h3>School or institution name here</h3>
+                        <p class="program">Degree or course here</p>
+                        <div class="meta"><span class="badge">Status here</span><span>Start year – End year</span></div>
+                        <p>description here — briefly explain what you studied and what you learned.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="achievements" id="achievements">
+            <div class="container">
+                <p class="eyebrow">05 / Milestones</p>
+                <h2>Achievements</h2>
+                <p class="section-intro">Add your awards, certificates, or personal milestones.</p>
+                <div class="achievement-grid">
+                    <article class="achiv-cards">
+                        <h3>Achievement title here</h3>
+                        <p>description here — briefly explain what you achieved and why it matters.</p>
+                        <div class="meta"><span class="badge">Organization here</span><span>Month / Year</span></div>
+                        <img src="images/certificate.svg" alt="Achievement image placeholder" width="1000" height="750" loading="lazy">
+                    </article>
+                    <article class="achiv-cards">
+                        <h3>Achievement title here</h3>
+                        <p>description here — briefly explain what you achieved and why it matters.</p>
+                        <div class="meta"><span class="badge">Organization here</span><span>Month / Year</span></div>
+                        <img src="images/certificate.svg" alt="Achievement image placeholder" width="1000" height="750" loading="lazy">
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="experience" id="experience">
+            <div class="container">
+                <p class="eyebrow">06 / Hands-on learning</p>
+                <h2>Experience</h2>
+                <p class="section-intro">Add your experience and briefly explain your responsibilities.</p>
+                <div class="experience-grid">
+                    <article class="work-cards">
+                        <h3>Role title here</h3>
+                        <p class="program">Organization here / Time period here</p>
+                        <p>description here — briefly explain your responsibilities and what you learned.</p>
+                    </article>
+                    <article class="work-cards">
+                        <h3>Role title here</h3>
+                        <p class="program">Organization here / Time period here</p>
+                        <p>description here — briefly explain your responsibilities and what you learned.</p>
+                    </article>
+                    <article class="work-cards">
+                        <h3>Role title here</h3>
+                        <p class="program">Organization here / Time period here</p>
+                        <p>description here — briefly explain your responsibilities and what you learned.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="address" id="contact">
+            <div class="container">
+                <p class="eyebrow">07 / Get in touch</p>
+                <h2>Let's make a connection</h2>
+                <div class="contact-cards">
+                    <p>Looking to collaborate, share an idea, or ask about my work? Replace the sample address
+                        below with your own contact information.</p>
+                    <dl class="contact-info">
+                        <div><dt>Email</dt><dd><a href="mailto:you@example.com">you@example.com</a></dd></div>
+                        <div><dt>Location</dt><dd>Your city, country</dd></div>
+                        <div><dt>Currently</dt><dd>Your course or role</dd></div>
+                    </dl>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Your Name. All rights reserved.</p>
+        <a href="#home">Back to top ↑</a>
+    </footer>
+</body>
+
+</html>
